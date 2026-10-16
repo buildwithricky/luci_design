@@ -1,0 +1,188 @@
+/*
+ * Reference component styles. Every colour, size and duration comes from a token;
+ * there are no hex values in this file. Copy the patterns, not necessarily the class names.
+ */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { background: var(--color-background-canvas); color: var(--color-text-primary); }
+body { margin: 0; font: var(--type-body-md); letter-spacing: var(--type-body-md-tracking); }
+@media (min-width: 1024px) { .app { font: var(--type-body-sm); } }
+
+/* One frame without transitions while the theme flips (set by js/theme.js). */
+.theme-switching *, .theme-switching *::before, .theme-switching *::after { transition: none !important; }
+
+/* Shared focus treatment: 2px ring with a 2px gap in the canvas colour. */
+:where(button, a, input, select, textarea, [tabindex]):focus-visible {
+  outline: var(--border-width-2) solid var(--color-focus-ring);
+  outline-offset: 2px;
+}
+
+/* ------------------------------------------------------------------ Button */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--space-inline-xs);
+  min-height: var(--button-height-lg);                 /* 48px touch target on mobile */
+  padding: 0 var(--space-16);
+  border: var(--border-width-1) solid transparent;
+  border-radius: var(--button-radius);
+  font: var(--type-label);
+  cursor: pointer;
+  transition:
+    background-color var(--motion-hover-duration) var(--motion-hover-easing),
+    border-color var(--motion-hover-duration) var(--motion-hover-easing),
+    transform var(--motion-feedback-duration) var(--motion-feedback-easing);
+}
+@media (min-width: 1024px) { .btn { min-height: var(--button-height-md); } }
+.btn:active:not(:disabled) { transform: scale(0.98); }
+
+.btn--primary { background: var(--button-primary-background); color: var(--button-primary-foreground); }
+.btn--primary:hover:not(:disabled) { background: var(--button-primary-hover); }
+.btn--primary:active:not(:disabled) { background: var(--button-primary-pressed); }
+
+.btn--secondary {
+  background: var(--button-secondary-background); color: var(--button-secondary-foreground);
+  border-color: var(--button-secondary-border);
+}
+.btn--secondary:hover:not(:disabled) { background: var(--button-secondary-hover); border-color: var(--color-border-hover); }
+
+.btn--tonal { background: var(--color-action-tonal-background); color: var(--color-action-tonal-foreground); }
+.btn--tonal:hover:not(:disabled) { background: var(--color-action-tonal-hover); }
+
+.btn--danger { background: var(--color-action-danger-background); color: var(--color-action-danger-foreground); }
+.btn--danger:hover:not(:disabled) { background: var(--color-action-danger-hover); }
+
+.btn--ghost { background: transparent; color: var(--color-text-primary); }
+.btn--ghost:hover:not(:disabled) { background: var(--button-ghost-hover); }
+
+.btn:disabled, .btn[aria-disabled="true"] {
+  background: var(--color-action-disabled-background); color: var(--color-text-disabled);
+  border-color: transparent; cursor: not-allowed;
+}
+
+/* Loading keeps the button's width: the label stays in the layout, invisibly. */
+.btn[aria-busy="true"] { position: relative; color: transparent; pointer-events: none; }
+.btn[aria-busy="true"]::after {
+  content: ""; position: absolute; width: 16px; height: 16px; border-radius: var(--radius-full);
+  border: var(--border-width-2) solid var(--button-primary-foreground); border-right-color: transparent;
+  animation: luci-spin 700ms var(--easing-linear) infinite;
+}
+.btn--secondary[aria-busy="true"]::after { border-color: var(--color-text-primary); border-right-color: transparent; }
+@keyframes luci-spin { to { transform: rotate(360deg); } }
+
+/* ------------------------------------------------------------------ Input */
+.field { display: grid; gap: var(--space-stack-xs); }
+.field__label { font: var(--type-label); color: var(--color-text-primary); }
+.field__help { font: var(--type-caption); letter-spacing: var(--type-caption-tracking); color: var(--color-text-muted); }
+.field__error { font: var(--type-caption); color: var(--color-status-danger-foreground); display: flex; gap: var(--space-4); }
+
+.input {
+  width: 100%; min-height: var(--size-control-lg);
+  padding: 0 var(--space-inline-md);
+  background: var(--input-background); color: var(--input-foreground);
+  border: var(--border-width-1) solid var(--input-border); border-radius: var(--input-radius);
+  font: var(--type-body-md);
+  transition: border-color var(--motion-hover-duration) var(--motion-hover-easing);
+}
+@media (min-width: 1024px) { .input { min-height: var(--input-height); font: var(--type-body-sm); } }
+.input::placeholder { color: var(--input-placeholder); }
+.input:hover:not(:disabled) { border-color: var(--input-border-hover); }
+.input:focus-visible { border-color: var(--input-border-focus); }
+.input[aria-invalid="true"] { border-color: var(--input-border-error); border-width: var(--border-width-2); }
+.input:disabled { background: var(--input-background-disabled); color: var(--color-text-disabled); cursor: not-allowed; }
+
+/* ------------------------------------------------------------------ Card */
+.card {
+  background: var(--card-background);
+  border: var(--border-width-1) solid var(--card-border);
+  border-radius: var(--card-radius);
+  box-shadow: var(--card-shadow);
+  padding: var(--space-inset-card);
+}
+@media (min-width: 768px) { .card { padding: var(--space-inset-card-lg); } }
+.card[aria-selected="true"] { border: var(--border-width-2) solid var(--color-border-selected); }
+.card__title { font: var(--type-title-card); margin: 0 0 var(--space-stack-sm); }
+.card__meta { color: var(--color-text-secondary); }
+
+/* ------------------------------------------------------------------ Sidebar navigation */
+.sidebar {
+  width: var(--size-sidebar);
+  background: var(--sidebar-background);
+  border-right: var(--border-width-1) solid var(--sidebar-border);
+  padding: var(--space-12);
+}
+.nav-item {
+  display: flex; align-items: center; gap: var(--space-inline-sm);
+  min-height: var(--size-control-md); padding: 0 var(--space-12);
+  border-radius: var(--radius-md); color: var(--color-text-secondary); text-decoration: none;
+  position: relative;
+  transition: background-color var(--motion-hover-duration) var(--motion-hover-easing);
+}
+.nav-item:hover { background: var(--sidebar-item-hover); color: var(--color-text-primary); }
+.nav-item[aria-current="page"] {
+  background: var(--sidebar-item-active-background);
+  color: var(--sidebar-item-active-foreground);
+  font-weight: var(--font-weight-semibold);           /* non-colour cue 1 */
+}
+.nav-item[aria-current="page"]::before {               /* non-colour cue 2 */
+  content: ""; position: absolute; left: 0; top: var(--space-8); bottom: var(--space-8);
+  width: var(--border-width-2); border-radius: var(--radius-full);
+  background: var(--sidebar-item-active-indicator);
+}
+
+/* ------------------------------------------------------------------ Modal */
+.scrim {
+  position: fixed; inset: 0; z-index: var(--z-modal);
+  background: var(--modal-scrim);
+  display: grid; place-items: center; padding: var(--space-gutter);
+  animation: luci-fade var(--motion-modal-exit-duration) var(--motion-popover-enter-easing);
+}
+.modal {
+  width: min(520px, 100%);
+  background: var(--modal-background);
+  border: var(--border-width-1) solid var(--color-border-default);
+  border-radius: var(--modal-radius);
+  box-shadow: var(--modal-shadow);
+  padding: var(--space-24);
+  animation: luci-modal-in var(--motion-modal-enter-duration) var(--motion-modal-enter-easing);
+}
+.modal__title { font: var(--type-title-section); margin: 0 0 var(--space-stack-sm); }
+.modal__actions { display: flex; justify-content: flex-end; gap: var(--space-inline-sm); margin-top: var(--space-stack-lg); }
+@keyframes luci-fade { from { opacity: 0; } }
+@keyframes luci-modal-in { from { opacity: 0; transform: scale(0.96); } }
+
+/* ------------------------------------------------------------------ Status badge (colour + icon + word) */
+.badge {
+  display: inline-flex; align-items: center; gap: var(--space-4);
+  padding: var(--space-2) var(--space-8); border-radius: var(--radius-sm);
+  font: var(--type-caption); letter-spacing: var(--type-caption-tracking);
+}
+.badge--success { background: var(--color-status-success-background); color: var(--color-status-success-foreground); }
+.badge--warning { background: var(--color-status-warning-background); color: var(--color-status-warning-foreground); }
+.badge--danger  { background: var(--color-status-danger-background);  color: var(--color-status-danger-foreground); }
+.badge--info    { background: var(--color-status-info-background);    color: var(--color-status-info-foreground); }
+.badge--accent  { background: var(--color-accent-background);         color: var(--color-accent-foreground); }
+
+/* ------------------------------------------------------------------ Tooltip, skeleton, progress */
+.tooltip {
+  background: var(--tooltip-background); color: var(--tooltip-foreground);
+  border-radius: var(--tooltip-radius); padding: var(--space-4) var(--space-8);
+  font: var(--type-caption); box-shadow: var(--popover-shadow);
+}
+.skeleton {
+  border-radius: var(--radius-sm);
+  background: linear-gradient(90deg, var(--skeleton-base) 25%, var(--skeleton-highlight) 50%, var(--skeleton-base) 75%) 0 0 / 300% 100%;
+  animation: luci-shimmer var(--motion-skeleton-duration) var(--motion-skeleton-easing) infinite;
+}
+@keyframes luci-shimmer { to { background-position: -150% 0; } }
+.progress { height: 8px; border-radius: var(--radius-full); background: var(--progress-track); overflow: hidden; }
+.progress > span {
+  display: block; height: 100%; background: var(--progress-fill); border-radius: inherit;
+  transition: width var(--motion-progress-duration) var(--motion-progress-easing);
+}
+
+/* ------------------------------------------------------------------ Reduced motion: no travel, no scale */
+@media (prefers-reduced-motion: reduce) {
+  .btn:active:not(:disabled) { transform: none; }
+  @keyframes luci-modal-in { from { opacity: 0; } }
+  .skeleton { animation: none; background: var(--skeleton-base); }
+}

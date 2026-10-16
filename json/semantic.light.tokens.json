@@ -1,0 +1,315 @@
+{
+  "color": {
+    "background": {
+      "canvas": {
+        "$type": "color",
+        "$value": "{neutral.50}",
+        "$description": "App and page background"
+      },
+      "surface": {
+        "$type": "color",
+        "$value": "{neutral.0}",
+        "$description": "Standard surface: cards, panels, sidebar"
+      },
+      "surface-raised": {
+        "$type": "color",
+        "$value": "{neutral.0}",
+        "$description": "Card that sits above another surface"
+      },
+      "surface-sunken": {
+        "$type": "color",
+        "$value": "{neutral.100}",
+        "$description": "Wells inside a surface: code, input groups, filter bars"
+      },
+      "surface-overlay": {
+        "$type": "color",
+        "$value": "{neutral.0}",
+        "$description": "Menus, popovers, modals, drawers"
+      },
+      "surface-inverse": {
+        "$type": "color",
+        "$value": "{green.900}",
+        "$description": "Tooltips and toasts"
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "{neutral.100}",
+        "$description": "Hover fill for rows, menu items, ghost buttons"
+      },
+      "selected": {
+        "$type": "color",
+        "$value": "{green.50}",
+        "$description": "Selected rows, chips, nav items"
+      },
+      "scrim": {
+        "$type": "color",
+        "$value": "{scrim.light}",
+        "$description": "Dims the page behind modals and onboarding spotlight"
+      }
+    },
+    "text": {
+      "primary": {
+        "$type": "color",
+        "$value": "{neutral.950}",
+        "$description": "Headings and body text"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{neutral.700}",
+        "$description": "Supporting text, labels, metadata"
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{neutral.600}",
+        "$description": "Placeholder, helper text, timestamps"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{neutral.500}",
+        "$description": "Disabled controls only"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{neutral.50}",
+        "$description": "Text on surface-inverse"
+      },
+      "link": {
+        "$type": "color",
+        "$value": "{green.600}",
+        "$description": "Inline links"
+      },
+      "selected": {
+        "$type": "color",
+        "$value": "{green.900}",
+        "$description": "Text on color.background.selected"
+      }
+    },
+    "icon": {
+      "default": {
+        "$type": "color",
+        "$value": "{neutral.700}",
+        "$description": "Interface icons"
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{neutral.950}",
+        "$description": "Icons that carry the only label"
+      }
+    },
+    "border": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{neutral.100}",
+        "$description": "Dividers between rows and sections"
+      },
+      "default": {
+        "$type": "color",
+        "$value": "{neutral.300}",
+        "$description": "Card and panel outlines"
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{neutral.500}",
+        "$description": "Input and control boundaries"
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "{neutral.700}",
+        "$description": "Control boundary on hover"
+      },
+      "selected": {
+        "$type": "color",
+        "$value": "{green.600}",
+        "$description": "Selected card or option outline"
+      }
+    },
+    "focus": {
+      "ring": {
+        "$type": "color",
+        "$value": "{green.600}",
+        "$description": "Keyboard focus indicator"
+      }
+    },
+    "action": {
+      "primary": {
+        "background": {
+          "$type": "color",
+          "$value": "{green.900}",
+          "$description": "Primary button fill"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{neutral.50}",
+          "$description": "Text and icon on primary"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{green.800}",
+          "$description": "Primary hover fill"
+        },
+        "pressed": {
+          "$type": "color",
+          "$value": "{green.950}",
+          "$description": "Primary pressed fill"
+        }
+      },
+      "tonal": {
+        "background": {
+          "$type": "color",
+          "$value": "{green.50}",
+          "$description": "Brand-tinted secondary action"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{green.900}",
+          "$description": "Text on tonal"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{green.100}",
+          "$description": "Tonal hover fill"
+        }
+      },
+      "danger": {
+        "background": {
+          "$type": "color",
+          "$value": "{danger.light}",
+          "$description": "Destructive button fill"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{neutral.0}",
+          "$description": "Text on danger"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{danger.light-hover}",
+          "$description": "Danger hover fill"
+        }
+      },
+      "disabled": {
+        "background": {
+          "$type": "color",
+          "$value": "{neutral.100}",
+          "$description": "Disabled control fill"
+        }
+      }
+    },
+    "accent": {
+      "background": {
+        "$type": "color",
+        "$value": "{green.300}",
+        "$description": "Sage brand fill: 'New' badges, onboarding step numbers, celebration marks"
+      },
+      "foreground": {
+        "$type": "color",
+        "$value": "{green.900}",
+        "$description": "Text and icons on the Sage fill"
+      },
+      "indicator": {
+        "$type": "color",
+        "$value": "{green.600}",
+        "$description": "Standalone brand marks that must be seen: active dots, progress, onboarding outline"
+      }
+    },
+    "status": {
+      "success": {
+        "foreground": {
+          "$type": "color",
+          "$value": "{success.light}",
+          "$description": "Success text and icon"
+        },
+        "background": {
+          "$type": "color",
+          "$value": "{success.tint-light}",
+          "$description": "Success banner and badge fill"
+        }
+      },
+      "warning": {
+        "foreground": {
+          "$type": "color",
+          "$value": "{warning.light}",
+          "$description": "Warning text and icon"
+        },
+        "background": {
+          "$type": "color",
+          "$value": "{warning.tint-light}",
+          "$description": "Warning banner and badge fill"
+        }
+      },
+      "danger": {
+        "foreground": {
+          "$type": "color",
+          "$value": "{danger.light}",
+          "$description": "Error text, icon and invalid-field border"
+        },
+        "background": {
+          "$type": "color",
+          "$value": "{danger.tint-light}",
+          "$description": "Error banner and badge fill"
+        }
+      },
+      "info": {
+        "foreground": {
+          "$type": "color",
+          "$value": "{info.light}",
+          "$description": "Information text and icon"
+        },
+        "background": {
+          "$type": "color",
+          "$value": "{info.tint-light}",
+          "$description": "Info banner and badge fill"
+        }
+      }
+    },
+    "chart": {
+      "series-1": {
+        "$type": "color",
+        "$value": "{green.600}",
+        "$description": "First data series"
+      },
+      "series-2": {
+        "$type": "color",
+        "$value": "{info.light}",
+        "$description": "Second data series"
+      },
+      "series-3": {
+        "$type": "color",
+        "$value": "{warning.light}",
+        "$description": "Third data series"
+      },
+      "series-4": {
+        "$type": "color",
+        "$value": "{neutral.500}",
+        "$description": "Fourth series or 'other'"
+      },
+      "grid": {
+        "$type": "color",
+        "$value": "{neutral.100}",
+        "$description": "Gridlines"
+      },
+      "axis": {
+        "$type": "color",
+        "$value": "{neutral.500}",
+        "$description": "Axis lines and ticks"
+      }
+    }
+  },
+  "elevation": {
+    "raised": {
+      "$type": "shadow",
+      "$value": "0 1px 2px rgb(20 20 20 / 0.06), 0 1px 1px rgb(20 20 20 / 0.04)",
+      "$description": "Raised cards"
+    },
+    "overlay": {
+      "$type": "shadow",
+      "$value": "0 4px 12px rgb(20 20 20 / 0.10), 0 1px 2px rgb(20 20 20 / 0.06)",
+      "$description": "Menus, popovers, tooltips"
+    },
+    "modal": {
+      "$type": "shadow",
+      "$value": "0 16px 40px rgb(20 20 20 / 0.16), 0 2px 6px rgb(20 20 20 / 0.06)",
+      "$description": "Modals and drawers"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+pair,fg,bg,ratio
+Sage text on light canvas,#8fa581,#f3f4f2,2.42
+White text on Sage,#ffffff,#8fa581,2.67
+Light canvas text on Sage,#f3f4f2,#8fa581,2.42
+Forest text on Sage,#242a20,#8fa581,5.51
+Grey 500 text on light canvas,#848483,#f3f4f2,3.39
+Grey 700 text on light canvas,#4c4c4c,#f3f4f2,7.78
+Light text on Forest,#f3f4f2,#242a20,13.34
+Grey 500 on near-black,#848483,#141414,4.92
+Grey 300 border on light canvas,#bbbcbb,#f3f4f2,1.73
+Sage on near-black,#8fa581,#141414,6.90

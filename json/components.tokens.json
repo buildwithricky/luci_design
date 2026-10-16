@@ -1,0 +1,304 @@
+{
+  "button": {
+    "radius": {
+      "$value": "{radius.md}",
+      "$description": "All buttons"
+    },
+    "height": {
+      "sm": {
+        "$value": "{size.control-sm}",
+        "$description": "Dense tables, toolbars"
+      },
+      "md": {
+        "$value": "{size.control-md}",
+        "$description": "Default on desktop"
+      },
+      "lg": {
+        "$value": "{size.control-lg}",
+        "$description": "Default on mobile; touch target"
+      }
+    },
+    "primary": {
+      "background": {
+        "$value": "{color.action.primary.background}",
+        "$description": ""
+      },
+      "foreground": {
+        "$value": "{color.action.primary.foreground}",
+        "$description": ""
+      },
+      "hover": {
+        "$value": "{color.action.primary.hover}",
+        "$description": ""
+      },
+      "pressed": {
+        "$value": "{color.action.primary.pressed}",
+        "$description": ""
+      }
+    },
+    "secondary": {
+      "background": {
+        "$value": "{color.background.surface}",
+        "$description": "Outlined neutral button"
+      },
+      "foreground": {
+        "$value": "{color.text.primary}",
+        "$description": ""
+      },
+      "border": {
+        "$value": "{color.border.strong}",
+        "$description": ""
+      },
+      "hover": {
+        "$value": "{color.background.hover}",
+        "$description": ""
+      }
+    },
+    "ghost": {
+      "hover": {
+        "$value": "{color.background.hover}",
+        "$description": "Icon buttons, toolbar actions"
+      }
+    }
+  },
+  "input": {
+    "background": {
+      "$value": "{color.background.surface}",
+      "$description": "Text fields, text areas, selects",
+      "disabled": {
+        "$value": "{color.action.disabled.background}",
+        "$description": ""
+      }
+    },
+    "foreground": {
+      "$value": "{color.text.primary}",
+      "$description": ""
+    },
+    "placeholder": {
+      "$value": "{color.text.muted}",
+      "$description": ""
+    },
+    "border": {
+      "$value": "{color.border.strong}",
+      "$description": "",
+      "hover": {
+        "$value": "{color.border.hover}",
+        "$description": ""
+      },
+      "focus": {
+        "$value": "{color.focus.ring}",
+        "$description": "Plus the focus ring"
+      },
+      "error": {
+        "$value": "{color.status.danger.foreground}",
+        "$description": "Plus an icon and message"
+      }
+    },
+    "radius": {
+      "$value": "{radius.md}",
+      "$description": ""
+    },
+    "height": {
+      "$value": "{size.control-md}",
+      "$description": "Use size.control-lg on mobile"
+    }
+  },
+  "card": {
+    "background": {
+      "$value": "{color.background.surface}",
+      "$description": ""
+    },
+    "border": {
+      "$value": "{color.border.default}",
+      "$description": ""
+    },
+    "radius": {
+      "$value": "{radius.lg}",
+      "$description": ""
+    },
+    "shadow": {
+      "$value": "{elevation.raised}",
+      "$description": ""
+    }
+  },
+  "sidebar": {
+    "background": {
+      "$value": "{color.background.surface}",
+      "$description": "Quieter than content via border, not colour"
+    },
+    "border": {
+      "$value": "{color.border.subtle}",
+      "$description": ""
+    },
+    "item": {
+      "hover": {
+        "$value": "{color.background.hover}",
+        "$description": ""
+      },
+      "active": {
+        "background": {
+          "$value": "{color.background.selected}",
+          "$description": "Plus 2px left bar"
+        },
+        "foreground": {
+          "$value": "{color.text.selected}",
+          "$description": "Plus weight 600"
+        },
+        "indicator": {
+          "$value": "{color.border.selected}",
+          "$description": "2px left bar"
+        }
+      }
+    }
+  },
+  "tabs": {
+    "foreground": {
+      "$value": "{color.text.secondary}",
+      "$description": "",
+      "active": {
+        "$value": "{color.text.primary}",
+        "$description": ""
+      }
+    },
+    "indicator": {
+      "$value": "{color.border.selected}",
+      "$description": "2px underline"
+    }
+  },
+  "popover": {
+    "background": {
+      "$value": "{color.background.surface-overlay}",
+      "$description": "Menus, dropdowns, popovers"
+    },
+    "border": {
+      "$value": "{color.border.default}",
+      "$description": ""
+    },
+    "shadow": {
+      "$value": "{elevation.overlay}",
+      "$description": ""
+    },
+    "radius": {
+      "$value": "{radius.lg}",
+      "$description": ""
+    }
+  },
+  "tooltip": {
+    "background": {
+      "$value": "{color.background.surface-inverse}",
+      "$description": ""
+    },
+    "foreground": {
+      "$value": "{color.text.inverse}",
+      "$description": ""
+    },
+    "radius": {
+      "$value": "{radius.sm}",
+      "$description": ""
+    }
+  },
+  "modal": {
+    "background": {
+      "$value": "{color.background.surface-overlay}",
+      "$description": "Modals and drawers"
+    },
+    "shadow": {
+      "$value": "{elevation.modal}",
+      "$description": ""
+    },
+    "radius": {
+      "$value": "{radius.xl}",
+      "$description": "Drawers use 0 on the attached edge"
+    },
+    "scrim": {
+      "$value": "{color.background.scrim}",
+      "$description": ""
+    }
+  },
+  "table": {
+    "header": {
+      "background": {
+        "$value": "{color.background.surface-sunken}",
+        "$description": ""
+      }
+    },
+    "row": {
+      "border": {
+        "$value": "{color.border.subtle}",
+        "$description": ""
+      },
+      "hover": {
+        "$value": "{color.background.hover}",
+        "$description": ""
+      },
+      "selected": {
+        "$value": "{color.background.selected}",
+        "$description": "Plus a checked checkbox"
+      }
+    }
+  },
+  "toast": {
+    "background": {
+      "$value": "{color.background.surface-inverse}",
+      "$description": ""
+    },
+    "foreground": {
+      "$value": "{color.text.inverse}",
+      "$description": ""
+    }
+  },
+  "onboarding": {
+    "spotlight": {
+      "scrim": {
+        "$value": "{color.background.scrim}",
+        "$description": ""
+      },
+      "ring": {
+        "$value": "{color.focus.ring}",
+        "$description": "Same as focus, so guidance and focus read alike"
+      }
+    },
+    "tip": {
+      "background": {
+        "$value": "{color.background.surface-overlay}",
+        "$description": ""
+      },
+      "border": {
+        "$value": "{color.border.selected}",
+        "$description": ""
+      }
+    }
+  },
+  "progress": {
+    "track": {
+      "$value": "{color.background.surface-sunken}",
+      "$description": ""
+    },
+    "fill": {
+      "$value": "{color.action.primary.background}",
+      "$description": "Forest in light, Sage in dark"
+    }
+  },
+  "skeleton": {
+    "base": {
+      "$value": "{color.background.hover}",
+      "$description": ""
+    },
+    "highlight": {
+      "$value": "{color.background.surface}",
+      "$description": "Moving band"
+    }
+  },
+  "empty-state": {
+    "icon": {
+      "background": {
+        "$value": "{color.background.selected}",
+        "$description": ""
+      },
+      "foreground": {
+        "$value": "{color.text.link}",
+        "$description": ""
+      }
+    }
+  }
+}

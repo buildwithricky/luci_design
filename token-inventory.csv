@@ -1,0 +1,277 @@
+token,css_variable,layer,description,light_value,dark_value,reference,usage
+green.50,--green-50,primitive,10% Sage over neutral.50,#e9ece7,#e9ece7,-,Status: proposed. Not for direct use in components
+green.100,--green-100,primitive,20% Sage over neutral.50,#dfe4db,#dfe4db,-,Status: proposed. Not for direct use in components
+green.200,--green-200,primitive,"Sage, 15% toward neutral.50",#9eb192,#9eb192,-,Status: proposed. Not for direct use in components
+green.300,--green-300,primitive,Sage,#8fa581,#8fa581,-,Status: approved. Not for direct use in components
+green.400,--green-400,primitive,"Sage, 10% toward Forest",#849977,#849977,-,Status: proposed. Not for direct use in components
+green.600,--green-600,primitive,50/50 Forest and Sage,#5a6850,#5a6850,-,Status: proposed. Not for direct use in components
+green.800,--green-800,primitive,"Forest, 12% toward Sage",#31392c,#31392c,-,Status: proposed. Not for direct use in components
+green.850,--green-850,primitive,15% Sage over neutral.900,#2d312a,#2d312a,-,Status: proposed. Not for direct use in components
+green.900,--green-900,primitive,Forest,#242a20,#242a20,-,Status: approved. Not for direct use in components
+green.950,--green-950,primitive,"Forest, 50% toward neutral.950",#1c1f1a,#1c1f1a,-,Status: proposed. Not for direct use in components
+neutral.0,--neutral-0,primitive,"neutral.50 lifted, tint kept",#fbfbfa,#fbfbfa,-,Status: proposed. Not for direct use in components
+neutral.50,--neutral-50,primitive,Light canvas,#f3f4f2,#f3f4f2,-,Status: approved. Not for direct use in components
+neutral.100,--neutral-100,primitive,"neutral.50, 5% darker",#e7e8e5,#e7e8e5,-,Status: proposed. Not for direct use in components
+neutral.300,--neutral-300,primitive,Light grey,#bbbcbb,#bbbcbb,-,Status: approved. Not for direct use in components
+neutral.400,--neutral-400,primitive,Between neutral.300 and neutral.500,#9a9a98,#9a9a98,-,Status: proposed. Not for direct use in components
+neutral.500,--neutral-500,primitive,Mid grey,#848483,#848483,-,Status: approved. Not for direct use in components
+neutral.600,--neutral-600,primitive,"neutral.500, 55% toward neutral.700",#656565,#656565,-,Status: proposed. Not for direct use in components
+neutral.700,--neutral-700,primitive,Dark grey,#4c4c4c,#4c4c4c,-,Status: approved. Not for direct use in components
+neutral.750,--neutral-750,primitive,Dark-mode border step,#3a3b39,#3a3b39,-,Status: proposed. Not for direct use in components
+neutral.800,--neutral-800,primitive,Dark overlay surface,#2e2f2d,#2e2f2d,-,Status: proposed. Not for direct use in components
+neutral.850,--neutral-850,primitive,Dark raised surface,#242523,#242523,-,Status: proposed. Not for direct use in components
+neutral.900,--neutral-900,primitive,Dark standard surface,#1c1d1b,#1c1d1b,-,Status: proposed. Not for direct use in components
+neutral.950,--neutral-950,primitive,Near-black,#141414,#141414,-,Status: approved. Not for direct use in components
+success.light,--success-light,primitive,"Success text/icon, light",#2f6b3a,#2f6b3a,-,Status: proposed. Not for direct use in components
+success.tint-light,--success-tint-light,primitive,"Success tint, light",#e7ede7,#e7ede7,-,Status: proposed. Not for direct use in components
+success.dark,--success-dark,primitive,"Success text/icon, dark",#8cc98a,#8cc98a,-,Status: proposed. Not for direct use in components
+success.tint-dark,--success-tint-dark,primitive,"Success tint, dark",#2c352b,#2c352b,-,Status: proposed. Not for direct use in components
+warning.light,--warning-light,primitive,"Warning text/icon, light",#8a5a00,#8a5a00,-,Status: proposed. Not for direct use in components
+warning.tint-light,--warning-tint-light,primitive,"Warning tint, light",#f0ebe1,#f0ebe1,-,Status: proposed. Not for direct use in components
+warning.dark,--warning-dark,primitive,"Warning text/icon, dark",#e0b45a,#e0b45a,-,Status: proposed. Not for direct use in components
+warning.tint-dark,--warning-tint-dark,primitive,"Warning tint, dark",#373224,#373224,-,Status: proposed. Not for direct use in components
+danger.light,--danger-light,primitive,"Danger text/icon, light",#b3261e,#b3261e,-,Status: proposed. Not for direct use in components
+danger.light-hover,--danger-light-hover,primitive,"Danger button hover, light",#951f19,#951f19,-,Status: proposed. Not for direct use in components
+danger.tint-light,--danger-tint-light,primitive,"Danger tint, light",#f4e6e4,#f4e6e4,-,Status: proposed. Not for direct use in components
+danger.dark,--danger-dark,primitive,"Danger text/icon, dark",#f2a39b,#f2a39b,-,Status: proposed. Not for direct use in components
+danger.dark-hover,--danger-dark-hover,primitive,"Danger button hover, dark",#f6bcb6,#f6bcb6,-,Status: proposed. Not for direct use in components
+danger.tint-dark,--danger-tint-dark,primitive,"Danger tint, dark",#3a302d,#3a302d,-,Status: proposed. Not for direct use in components
+info.light,--info-light,primitive,"Info text/icon, light",#2f5f8a,#2f5f8a,-,Status: proposed. Not for direct use in components
+info.tint-light,--info-tint-light,primitive,"Info tint, light",#e7ebef,#e7ebef,-,Status: proposed. Not for direct use in components
+info.dark,--info-dark,primitive,"Info text/icon, dark",#9cc3e6,#9cc3e6,-,Status: proposed. Not for direct use in components
+info.tint-dark,--info-tint-dark,primitive,"Info tint, dark",#2e3437,#2e3437,-,Status: proposed. Not for direct use in components
+scrim.light,--scrim-light,primitive,neutral.950 at 48%,rgb(20 20 20 / 0.48),rgb(20 20 20 / 0.48),-,Status: proposed. Not for direct use in components
+scrim.dark,--scrim-dark,primitive,"neutral.950 darkened, at 64%",rgb(10 11 10 / 0.64),rgb(10 11 10 / 0.64),-,Status: proposed. Not for direct use in components
+font.family.sans,--font-family-sans,primitive,,"'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif","'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",-,Not for direct use in components
+font.family.mono,--font-family-mono,primitive,,"ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace","ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace",-,Not for direct use in components
+font.weight.regular,--font-weight-regular,primitive,,400,400,-,Not for direct use in components
+font.weight.semibold,--font-weight-semibold,primitive,,600,600,-,Not for direct use in components
+font.size.12,--font-size-12,primitive,,0.75rem,0.75rem,-,Not for direct use in components
+font.size.14,--font-size-14,primitive,,0.875rem,0.875rem,-,Not for direct use in components
+font.size.16,--font-size-16,primitive,,1rem,1rem,-,Not for direct use in components
+font.size.18,--font-size-18,primitive,,1.125rem,1.125rem,-,Not for direct use in components
+font.size.20,--font-size-20,primitive,,1.25rem,1.25rem,-,Not for direct use in components
+font.size.28,--font-size-28,primitive,,1.75rem,1.75rem,-,Not for direct use in components
+font.size.36,--font-size-36,primitive,,2.25rem,2.25rem,-,Not for direct use in components
+font.size.48,--font-size-48,primitive,,3rem,3rem,-,Not for direct use in components
+line-height.16,--line-height-16,primitive,,1rem,1rem,-,Not for direct use in components
+line-height.20,--line-height-20,primitive,,1.25rem,1.25rem,-,Not for direct use in components
+line-height.24,--line-height-24,primitive,,1.5rem,1.5rem,-,Not for direct use in components
+line-height.28,--line-height-28,primitive,,1.75rem,1.75rem,-,Not for direct use in components
+line-height.36,--line-height-36,primitive,,2.25rem,2.25rem,-,Not for direct use in components
+line-height.44,--line-height-44,primitive,,2.75rem,2.75rem,-,Not for direct use in components
+line-height.56,--line-height-56,primitive,,3.5rem,3.5rem,-,Not for direct use in components
+letter-spacing.tight,--letter-spacing-tight,primitive,,-0.02em,-0.02em,-,Not for direct use in components
+letter-spacing.snug,--letter-spacing-snug,primitive,,-0.01em,-0.01em,-,Not for direct use in components
+letter-spacing.normal,--letter-spacing-normal,primitive,,0,0,-,Not for direct use in components
+letter-spacing.wide,--letter-spacing-wide,primitive,,0.01em,0.01em,-,Not for direct use in components
+space.0,--space-0,primitive,,0,0,-,Not for direct use in components
+space.2,--space-2,primitive,,0.125rem,0.125rem,-,Not for direct use in components
+space.4,--space-4,primitive,,0.25rem,0.25rem,-,Not for direct use in components
+space.8,--space-8,primitive,,0.5rem,0.5rem,-,Not for direct use in components
+space.12,--space-12,primitive,,0.75rem,0.75rem,-,Not for direct use in components
+space.16,--space-16,primitive,,1rem,1rem,-,Not for direct use in components
+space.20,--space-20,primitive,,1.25rem,1.25rem,-,Not for direct use in components
+space.24,--space-24,primitive,,1.5rem,1.5rem,-,Not for direct use in components
+space.32,--space-32,primitive,,2rem,2rem,-,Not for direct use in components
+space.40,--space-40,primitive,,2.5rem,2.5rem,-,Not for direct use in components
+space.48,--space-48,primitive,,3rem,3rem,-,Not for direct use in components
+space.64,--space-64,primitive,,4rem,4rem,-,Not for direct use in components
+space.80,--space-80,primitive,,5rem,5rem,-,Not for direct use in components
+space.96,--space-96,primitive,,6rem,6rem,-,Not for direct use in components
+radius.none,--radius-none,primitive,,0,0,-,Not for direct use in components
+radius.sm,--radius-sm,primitive,,4px,4px,-,Not for direct use in components
+radius.md,--radius-md,primitive,,8px,8px,-,Not for direct use in components
+radius.lg,--radius-lg,primitive,,12px,12px,-,Not for direct use in components
+radius.xl,--radius-xl,primitive,,16px,16px,-,Not for direct use in components
+radius.full,--radius-full,primitive,,9999px,9999px,-,Not for direct use in components
+border-width.1,--border-width-1,primitive,,1px,1px,-,Not for direct use in components
+border-width.2,--border-width-2,primitive,,2px,2px,-,Not for direct use in components
+opacity.0,--opacity-0,primitive,,0,0,-,Not for direct use in components
+opacity.48,--opacity-48,primitive,,0.48,0.48,-,Not for direct use in components
+opacity.64,--opacity-64,primitive,,0.64,0.64,-,Not for direct use in components
+opacity.100,--opacity-100,primitive,,1,1,-,Not for direct use in components
+duration.instant,--duration-instant,primitive,,100ms,100ms,-,Not for direct use in components
+duration.fast,--duration-fast,primitive,,150ms,150ms,-,Not for direct use in components
+duration.base,--duration-base,primitive,,200ms,200ms,-,Not for direct use in components
+duration.medium,--duration-medium,primitive,,300ms,300ms,-,Not for direct use in components
+duration.slow,--duration-slow,primitive,,400ms,400ms,-,Not for direct use in components
+duration.pulse,--duration-pulse,primitive,,600ms,600ms,-,Not for direct use in components
+duration.shimmer,--duration-shimmer,primitive,,1500ms,1500ms,-,Not for direct use in components
+easing.enter,--easing-enter,primitive,,"cubic-bezier(0.05, 0.7, 0.1, 1)","cubic-bezier(0.05, 0.7, 0.1, 1)",-,Not for direct use in components
+easing.exit,--easing-exit,primitive,,"cubic-bezier(0.3, 0, 0.8, 0.15)","cubic-bezier(0.3, 0, 0.8, 0.15)",-,Not for direct use in components
+easing.move,--easing-move,primitive,,"cubic-bezier(0.2, 0, 0, 1)","cubic-bezier(0.2, 0, 0, 1)",-,Not for direct use in components
+easing.linear,--easing-linear,primitive,,linear,linear,-,Not for direct use in components
+breakpoint.sm,--breakpoint-sm,primitive,,640px,640px,-,Not for direct use in components
+breakpoint.md,--breakpoint-md,primitive,,768px,768px,-,Not for direct use in components
+breakpoint.lg,--breakpoint-lg,primitive,,1024px,1024px,-,Not for direct use in components
+breakpoint.xl,--breakpoint-xl,primitive,,1280px,1280px,-,Not for direct use in components
+size.sidebar,--size-sidebar,primitive,,240px,240px,-,Not for direct use in components
+size.content-max,--size-content-max,primitive,,1120px,1120px,-,Not for direct use in components
+size.header,--size-header,primitive,,56px,56px,-,Not for direct use in components
+size.control-sm,--size-control-sm,primitive,,32px,32px,-,Not for direct use in components
+size.control-md,--size-control-md,primitive,,40px,40px,-,Not for direct use in components
+size.control-lg,--size-control-lg,primitive,,48px,48px,-,Not for direct use in components
+z.base,--z-base,primitive,,0,0,-,Not for direct use in components
+z.sticky,--z-sticky,primitive,,100,100,-,Not for direct use in components
+z.dropdown,--z-dropdown,primitive,,200,200,-,Not for direct use in components
+z.overlay,--z-overlay,primitive,,300,300,-,Not for direct use in components
+z.modal,--z-modal,primitive,,400,400,-,Not for direct use in components
+z.spotlight,--z-spotlight,primitive,,450,450,-,Not for direct use in components
+z.toast,--z-toast,primitive,,500,500,-,Not for direct use in components
+z.tooltip,--z-tooltip,primitive,,600,600,-,Not for direct use in components
+color.background.canvas,--color-background-canvas,semantic,App and page background,#f3f4f2,#141414,neutral.50 / neutral.950,Only the outermost layer; never on cards
+color.background.surface,--color-background-surface,semantic,"Standard surface: cards, panels, sidebar",#fbfbfa,#1c1d1b,neutral.0 / neutral.900,Default container fill
+color.background.surface-raised,--color-background-surface-raised,semantic,Card that sits above another surface,#fbfbfa,#242523,neutral.0 / neutral.850,Pair with elevation.raised
+color.background.surface-sunken,--color-background-surface-sunken,semantic,"Wells inside a surface: code, input groups, filter bars",#e7e8e5,#141414,neutral.100 / neutral.950,Never for clickable items
+color.background.surface-overlay,--color-background-surface-overlay,semantic,"Menus, popovers, modals, drawers",#fbfbfa,#2e2f2d,neutral.0 / neutral.800,Pair with elevation.overlay or elevation.modal
+color.background.surface-inverse,--color-background-surface-inverse,semantic,Tooltips and toasts,#242a20,#f3f4f2,green.900 / neutral.50,Text on it uses color.text.inverse
+color.background.hover,--color-background-hover,semantic,"Hover fill for rows, menu items, ghost buttons",#e7e8e5,#2e2f2d,neutral.100 / neutral.800,Never for selection
+color.background.selected,--color-background-selected,semantic,"Selected rows, chips, nav items",#e9ece7,#2d312a,green.50 / green.850,"Always pair with a non-colour cue (check, bar, weight)"
+color.background.scrim,--color-background-scrim,semantic,Dims the page behind modals and onboarding spotlight,rgb(20 20 20 / 0.48),rgb(10 11 10 / 0.64),scrim.light / scrim.dark,One scrim at a time
+color.text.primary,--color-text-primary,semantic,Headings and body text,#141414,#f3f4f2,neutral.950 / neutral.50,Default text colour
+color.text.secondary,--color-text-secondary,semantic,"Supporting text, labels, metadata",#4c4c4c,#bbbcbb,neutral.700 / neutral.300,Never for the only copy of an instruction
+color.text.muted,--color-text-muted,semantic,"Placeholder, helper text, timestamps",#656565,#9a9a98,neutral.600 / neutral.400,Passes 4.5:1 on every surface in its theme
+color.text.disabled,--color-text-disabled,semantic,Disabled controls only,#848483,#656565,neutral.500 / neutral.600,Exempt from contrast rules; never for live content
+color.text.inverse,--color-text-inverse,semantic,Text on surface-inverse,#f3f4f2,#141414,neutral.50 / neutral.950,"Tooltips, toasts"
+color.text.link,--color-text-link,semantic,Inline links,#5a6850,#8fa581,green.600 / green.300,Always underlined in body copy
+color.text.selected,--color-text-selected,semantic,Text on color.background.selected,#242a20,#f3f4f2,green.900 / neutral.50,Pair with weight 600
+color.icon.default,--color-icon-default,semantic,Interface icons,#4c4c4c,#bbbcbb,neutral.700 / neutral.300,Meaningful icons meet 3:1
+color.icon.strong,--color-icon-strong,semantic,Icons that carry the only label,#141414,#f3f4f2,neutral.950 / neutral.50,Icon-only buttons
+color.border.subtle,--color-border-subtle,semantic,Dividers between rows and sections,#e7e8e5,#2e2f2d,neutral.100 / neutral.800,Decorative; no contrast minimum
+color.border.default,--color-border-default,semantic,Card and panel outlines,#bbbcbb,#3a3b39,neutral.300 / neutral.750,Decorative; pair with a fill change
+color.border.strong,--color-border-strong,semantic,Input and control boundaries,#848483,#848483,neutral.500 / neutral.500,Meets 3:1 against its surface
+color.border.hover,--color-border-hover,semantic,Control boundary on hover,#4c4c4c,#9a9a98,neutral.700 / neutral.400,Inputs and outlined buttons
+color.border.selected,--color-border-selected,semantic,Selected card or option outline,#5a6850,#8fa581,green.600 / green.300,Use 2px width
+color.focus.ring,--color-focus-ring,semantic,Keyboard focus indicator,#5a6850,#8fa581,green.600 / green.300,"2px ring, 2px offset in the canvas colour"
+color.action.primary.background,--color-action-primary-background,semantic,Primary button fill,#242a20,#8fa581,green.900 / green.300,One per view
+color.action.primary.foreground,--color-action-primary-foreground,semantic,Text and icon on primary,#f3f4f2,#242a20,neutral.50 / green.900,
+color.action.primary.hover,--color-action-primary-hover,semantic,Primary hover fill,#31392c,#9eb192,green.800 / green.200,
+color.action.primary.pressed,--color-action-primary-pressed,semantic,Primary pressed fill,#1c1f1a,#849977,green.950 / green.400,
+color.action.tonal.background,--color-action-tonal-background,semantic,Brand-tinted secondary action,#e9ece7,#2d312a,green.50 / green.850,Second most important action
+color.action.tonal.foreground,--color-action-tonal-foreground,semantic,Text on tonal,#242a20,#9eb192,green.900 / green.200,
+color.action.tonal.hover,--color-action-tonal-hover,semantic,Tonal hover fill,#dfe4db,#31392c,green.100 / green.800,
+color.action.danger.background,--color-action-danger-background,semantic,Destructive button fill,#b3261e,#f2a39b,danger.light / danger.dark,Confirmations only
+color.action.danger.foreground,--color-action-danger-foreground,semantic,Text on danger,#fbfbfa,#141414,neutral.0 / neutral.950,
+color.action.danger.hover,--color-action-danger-hover,semantic,Danger hover fill,#951f19,#f6bcb6,danger.light-hover / danger.dark-hover,
+color.action.disabled.background,--color-action-disabled-background,semantic,Disabled control fill,#e7e8e5,#2e2f2d,neutral.100 / neutral.800,
+color.accent.background,--color-accent-background,semantic,"Sage brand fill: 'New' badges, onboarding step numbers, celebration marks",#8fa581,#8fa581,green.300 / green.300,Always carries color.accent.foreground text or icon
+color.accent.foreground,--color-accent-foreground,semantic,Text and icons on the Sage fill,#242a20,#242a20,green.900 / green.900,5.5:1 in both themes
+color.accent.indicator,--color-accent-indicator,semantic,"Standalone brand marks that must be seen: active dots, progress, onboarding outline",#5a6850,#8fa581,green.600 / green.300,Meets 3:1 in both themes
+color.status.success.foreground,--color-status-success-foreground,semantic,Success text and icon,#2f6b3a,#8cc98a,success.light / success.dark,Pair with a check icon and a word
+color.status.success.background,--color-status-success-background,semantic,Success banner and badge fill,#e7ede7,#2c352b,success.tint-light / success.tint-dark,
+color.status.warning.foreground,--color-status-warning-foreground,semantic,Warning text and icon,#8a5a00,#e0b45a,warning.light / warning.dark,Pair with a warning icon and a word
+color.status.warning.background,--color-status-warning-background,semantic,Warning banner and badge fill,#f0ebe1,#373224,warning.tint-light / warning.tint-dark,
+color.status.danger.foreground,--color-status-danger-foreground,semantic,"Error text, icon and invalid-field border",#b3261e,#f2a39b,danger.light / danger.dark,Pair with an error icon and a message
+color.status.danger.background,--color-status-danger-background,semantic,Error banner and badge fill,#f4e6e4,#3a302d,danger.tint-light / danger.tint-dark,
+color.status.info.foreground,--color-status-info-foreground,semantic,Information text and icon,#2f5f8a,#9cc3e6,info.light / info.dark,Pair with an info icon
+color.status.info.background,--color-status-info-background,semantic,Info banner and badge fill,#e7ebef,#2e3437,info.tint-light / info.tint-dark,
+color.chart.series-1,--color-chart-series-1,semantic,First data series,#5a6850,#8fa581,green.600 / green.300,Brand series
+color.chart.series-2,--color-chart-series-2,semantic,Second data series,#2f5f8a,#9cc3e6,info.light / info.dark,
+color.chart.series-3,--color-chart-series-3,semantic,Third data series,#8a5a00,#e0b45a,warning.light / warning.dark,
+color.chart.series-4,--color-chart-series-4,semantic,Fourth series or 'other',#848483,#bbbcbb,neutral.500 / neutral.300,
+color.chart.grid,--color-chart-grid,semantic,Gridlines,#e7e8e5,#2e2f2d,neutral.100 / neutral.800,Decorative
+color.chart.axis,--color-chart-axis,semantic,Axis lines and ticks,#848483,#848483,neutral.500 / neutral.500,
+elevation.raised,--elevation-raised,semantic,Raised cards,"0 1px 2px rgb(20 20 20 / 0.06), 0 1px 1px rgb(20 20 20 / 0.04)",none,literal,Light: soft shadow. Dark: tone step + border instead
+elevation.overlay,--elevation-overlay,semantic,"Menus, popovers, tooltips","0 4px 12px rgb(20 20 20 / 0.10), 0 1px 2px rgb(20 20 20 / 0.06)",0 8px 24px rgb(10 11 10 / 0.48),literal,Always with color.border.default
+elevation.modal,--elevation-modal,semantic,Modals and drawers,"0 16px 40px rgb(20 20 20 / 0.16), 0 2px 6px rgb(20 20 20 / 0.06)",0 20px 48px rgb(10 11 10 / 0.64),literal,Paired with the scrim
+type.display-lg,--type-display-lg,semantic,Marketing hero headline,3rem/3.5rem 600,same,"font.size.48, line-height.56, font.weight.semibold, letter-spacing.tight",
+type.display-md,--type-display-md,semantic,Marketing section headline,2.25rem/2.75rem 600,same,"font.size.36, line-height.44, font.weight.semibold, letter-spacing.tight",
+type.title-page,--type-title-page,semantic,"App page title, one per page",1.75rem/2.25rem 600,same,"font.size.28, line-height.36, font.weight.semibold, letter-spacing.snug",
+type.title-section,--type-title-section,semantic,Section heading,1.25rem/1.75rem 600,same,"font.size.20, line-height.28, font.weight.semibold, letter-spacing.snug",
+type.title-card,--type-title-card,semantic,Card and dialog title,1rem/1.5rem 600,same,"font.size.16, line-height.24, font.weight.semibold, letter-spacing.normal",
+type.body-lg,--type-body-lg,semantic,Marketing body copy,1.125rem/1.75rem 400,same,"font.size.18, line-height.28, font.weight.regular, letter-spacing.normal",
+type.body-md,--type-body-md,semantic,"Default body, all mobile text",1rem/1.5rem 400,same,"font.size.16, line-height.24, font.weight.regular, letter-spacing.normal",
+type.body-sm,--type-body-sm,semantic,"Dense desktop views, secondary text",0.875rem/1.25rem 400,same,"font.size.14, line-height.20, font.weight.regular, letter-spacing.normal",
+type.label,--type-label,semantic,"Buttons, nav items, form labels",0.875rem/1.25rem 600,same,"font.size.14, line-height.20, font.weight.semibold, letter-spacing.normal",
+type.caption,--type-caption,semantic,"Captions, badges, helper text",0.75rem/1rem 400,same,"font.size.12, line-height.16, font.weight.regular, letter-spacing.wide",
+type.mono,--type-mono,semantic,"IDs, amounts in tables, code",0.875rem/1.25rem 400,same,"font.size.14, line-height.20, font.weight.regular, letter-spacing.normal",
+space.inline.xs,--space-inline-xs,semantic,Icon to label,0.25rem,same,space.4,
+space.inline.sm,--space-inline-sm,semantic,"Between buttons, chips",0.5rem,same,space.8,
+space.inline.md,--space-inline-md,semantic,"Control padding, horizontal",0.75rem,same,space.12,
+space.stack.xs,--space-stack-xs,semantic,Label to input,0.25rem,same,space.4,
+space.stack.sm,--space-stack-sm,semantic,Related lines,0.5rem,same,space.8,
+space.stack.md,--space-stack-md,semantic,"Form fields, list groups",1rem,same,space.16,
+space.stack.lg,--space-stack-lg,semantic,Between cards,1.5rem,same,space.24,
+space.section,--space-section,semantic,Between app page sections,3rem,same,space.48,
+space.section-marketing,--space-section-marketing,semantic,Between marketing sections (64 on mobile),6rem,same,space.96,
+space.inset.card,--space-inset-card,semantic,Card padding on mobile (24 from md up),1rem,same,space.16,
+space.inset.card-lg,--space-inset-card-lg,semantic,Card padding from md up,1.5rem,same,space.24,
+space.gutter,--space-gutter,semantic,Page side gutter on mobile (32 from lg up),1rem,same,space.16,
+space.gutter-lg,--space-gutter-lg,semantic,Page side gutter from lg up,2rem,same,space.32,
+motion.feedback,--motion-feedback-duration / -easing,semantic,"Button press, toggle, chip select","100ms cubic-bezier(0.2, 0, 0, 1)",same,"duration.instant, easing.move",Never delayed
+motion.hover,--motion-hover-duration / -easing,semantic,"Hover fills, focus ring appearance","150ms cubic-bezier(0.2, 0, 0, 1)",same,"duration.fast, easing.move",Colour and opacity only
+motion.tooltip,--motion-tooltip-duration / -easing,semantic,Tooltip fade in,"150ms cubic-bezier(0.05, 0.7, 0.1, 1)",same,"duration.fast, easing.enter",300ms hover delay; instant on focus
+motion.popover-enter,--motion-popover-enter-duration / -easing,semantic,"Dropdowns, popovers, toasts appearing","200ms cubic-bezier(0.05, 0.7, 0.1, 1)",same,"duration.base, easing.enter",Max 4px travel
+motion.popover-exit,--motion-popover-exit-duration / -easing,semantic,Dropdowns and popovers closing,"150ms cubic-bezier(0.3, 0, 0.8, 0.15)",same,"duration.fast, easing.exit",
+motion.modal-enter,--motion-modal-enter-duration / -easing,semantic,Modal and drawer opening,"300ms cubic-bezier(0.05, 0.7, 0.1, 1)",same,"duration.medium, easing.enter",Scale from 0.96 or slide from edge
+motion.modal-exit,--motion-modal-exit-duration / -easing,semantic,Modal and drawer closing,"200ms cubic-bezier(0.3, 0, 0.8, 0.15)",same,"duration.base, easing.exit",
+motion.route,--motion-route-duration / -easing,semantic,Page cross-fade with 8px rise,"200ms cubic-bezier(0.2, 0, 0, 1)",same,"duration.base, easing.move",Sidebar and header never animate
+motion.step,--motion-step-duration / -easing,semantic,Onboarding step slide (24px),"300ms cubic-bezier(0.05, 0.7, 0.1, 1)",same,"duration.medium, easing.enter",Back reverses direction
+motion.emphasis,--motion-emphasis-duration / -easing,semantic,Completion check draw,"400ms cubic-bezier(0.05, 0.7, 0.1, 1)",same,"duration.slow, easing.enter",One per flow
+motion.spotlight,--motion-spotlight-duration / -easing,semantic,Onboarding outline pulse,"600ms cubic-bezier(0.2, 0, 0, 1)",same,"duration.pulse, easing.move","Runs twice, then stops"
+motion.skeleton,--motion-skeleton-duration / -easing,semantic,Skeleton shimmer loop,1500ms linear,same,"duration.shimmer, easing.linear",Only if load exceeds 300ms; static under reduced motion
+motion.progress,--motion-progress-duration / -easing,semantic,Progress bar width updates,200ms linear,same,"duration.base, easing.linear",
+button.radius,--button-radius,component,All buttons,8px,8px,radius.md,
+button.height.sm,--button-height-sm,component,"Dense tables, toolbars",32px,32px,size.control-sm,
+button.height.md,--button-height-md,component,Default on desktop,40px,40px,size.control-md,
+button.height.lg,--button-height-lg,component,Default on mobile; touch target,48px,48px,size.control-lg,
+button.primary.background,--button-primary-background,component,,#242a20,#8fa581,color.action.primary.background,
+button.primary.foreground,--button-primary-foreground,component,,#f3f4f2,#242a20,color.action.primary.foreground,
+button.primary.hover,--button-primary-hover,component,,#31392c,#9eb192,color.action.primary.hover,
+button.primary.pressed,--button-primary-pressed,component,,#1c1f1a,#849977,color.action.primary.pressed,
+button.secondary.background,--button-secondary-background,component,Outlined neutral button,#fbfbfa,#1c1d1b,color.background.surface,
+button.secondary.foreground,--button-secondary-foreground,component,,#141414,#f3f4f2,color.text.primary,
+button.secondary.border,--button-secondary-border,component,,#848483,#848483,color.border.strong,
+button.secondary.hover,--button-secondary-hover,component,,#e7e8e5,#2e2f2d,color.background.hover,
+button.ghost.hover,--button-ghost-hover,component,"Icon buttons, toolbar actions",#e7e8e5,#2e2f2d,color.background.hover,
+input.background,--input-background,component,"Text fields, text areas, selects",#fbfbfa,#1c1d1b,color.background.surface,
+input.foreground,--input-foreground,component,,#141414,#f3f4f2,color.text.primary,
+input.placeholder,--input-placeholder,component,,#656565,#9a9a98,color.text.muted,
+input.border,--input-border,component,,#848483,#848483,color.border.strong,
+input.border.hover,--input-border-hover,component,,#4c4c4c,#9a9a98,color.border.hover,
+input.border.focus,--input-border-focus,component,Plus the focus ring,#5a6850,#8fa581,color.focus.ring,
+input.border.error,--input-border-error,component,Plus an icon and message,#b3261e,#f2a39b,color.status.danger.foreground,
+input.background.disabled,--input-background-disabled,component,,#e7e8e5,#2e2f2d,color.action.disabled.background,
+input.radius,--input-radius,component,,8px,8px,radius.md,
+input.height,--input-height,component,Use size.control-lg on mobile,40px,40px,size.control-md,
+card.background,--card-background,component,,#fbfbfa,#1c1d1b,color.background.surface,
+card.border,--card-border,component,,#bbbcbb,#3a3b39,color.border.default,
+card.radius,--card-radius,component,,12px,12px,radius.lg,
+card.shadow,--card-shadow,component,,"0 1px 2px rgb(20 20 20 / 0.06), 0 1px 1px rgb(20 20 20 / 0.04)",none,elevation.raised,
+sidebar.background,--sidebar-background,component,"Quieter than content via border, not colour",#fbfbfa,#1c1d1b,color.background.surface,
+sidebar.border,--sidebar-border,component,,#e7e8e5,#2e2f2d,color.border.subtle,
+sidebar.item.hover,--sidebar-item-hover,component,,#e7e8e5,#2e2f2d,color.background.hover,
+sidebar.item.active.background,--sidebar-item-active-background,component,Plus 2px left bar,#e9ece7,#2d312a,color.background.selected,
+sidebar.item.active.foreground,--sidebar-item-active-foreground,component,Plus weight 600,#242a20,#f3f4f2,color.text.selected,
+sidebar.item.active.indicator,--sidebar-item-active-indicator,component,2px left bar,#5a6850,#8fa581,color.border.selected,
+tabs.foreground,--tabs-foreground,component,,#4c4c4c,#bbbcbb,color.text.secondary,
+tabs.foreground.active,--tabs-foreground-active,component,,#141414,#f3f4f2,color.text.primary,
+tabs.indicator,--tabs-indicator,component,2px underline,#5a6850,#8fa581,color.border.selected,
+popover.background,--popover-background,component,"Menus, dropdowns, popovers",#fbfbfa,#2e2f2d,color.background.surface-overlay,
+popover.border,--popover-border,component,,#bbbcbb,#3a3b39,color.border.default,
+popover.shadow,--popover-shadow,component,,"0 4px 12px rgb(20 20 20 / 0.10), 0 1px 2px rgb(20 20 20 / 0.06)",0 8px 24px rgb(10 11 10 / 0.48),elevation.overlay,
+popover.radius,--popover-radius,component,,12px,12px,radius.lg,
+tooltip.background,--tooltip-background,component,,#242a20,#f3f4f2,color.background.surface-inverse,
+tooltip.foreground,--tooltip-foreground,component,,#f3f4f2,#141414,color.text.inverse,
+tooltip.radius,--tooltip-radius,component,,4px,4px,radius.sm,
+modal.background,--modal-background,component,Modals and drawers,#fbfbfa,#2e2f2d,color.background.surface-overlay,
+modal.shadow,--modal-shadow,component,,"0 16px 40px rgb(20 20 20 / 0.16), 0 2px 6px rgb(20 20 20 / 0.06)",0 20px 48px rgb(10 11 10 / 0.64),elevation.modal,
+modal.radius,--modal-radius,component,Drawers use 0 on the attached edge,16px,16px,radius.xl,
+modal.scrim,--modal-scrim,component,,rgb(20 20 20 / 0.48),rgb(10 11 10 / 0.64),color.background.scrim,
+table.header.background,--table-header-background,component,,#e7e8e5,#141414,color.background.surface-sunken,
+table.row.border,--table-row-border,component,,#e7e8e5,#2e2f2d,color.border.subtle,
+table.row.hover,--table-row-hover,component,,#e7e8e5,#2e2f2d,color.background.hover,
+table.row.selected,--table-row-selected,component,Plus a checked checkbox,#e9ece7,#2d312a,color.background.selected,
+toast.background,--toast-background,component,,#242a20,#f3f4f2,color.background.surface-inverse,
+toast.foreground,--toast-foreground,component,,#f3f4f2,#141414,color.text.inverse,
+onboarding.spotlight.scrim,--onboarding-spotlight-scrim,component,,rgb(20 20 20 / 0.48),rgb(10 11 10 / 0.64),color.background.scrim,
+onboarding.spotlight.ring,--onboarding-spotlight-ring,component,"Same as focus, so guidance and focus read alike",#5a6850,#8fa581,color.focus.ring,
+onboarding.tip.background,--onboarding-tip-background,component,,#fbfbfa,#2e2f2d,color.background.surface-overlay,
+onboarding.tip.border,--onboarding-tip-border,component,,#5a6850,#8fa581,color.border.selected,
+progress.track,--progress-track,component,,#e7e8e5,#141414,color.background.surface-sunken,
+progress.fill,--progress-fill,component,"Forest in light, Sage in dark",#242a20,#8fa581,color.action.primary.background,
+skeleton.base,--skeleton-base,component,,#e7e8e5,#2e2f2d,color.background.hover,
+skeleton.highlight,--skeleton-highlight,component,Moving band,#fbfbfa,#1c1d1b,color.background.surface,
+empty-state.icon.background,--empty-state-icon-background,component,,#e9ece7,#2d312a,color.background.selected,
+empty-state.icon.foreground,--empty-state-icon-foreground,component,,#5a6850,#8fa581,color.text.link,

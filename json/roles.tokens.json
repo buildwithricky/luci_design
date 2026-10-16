@@ -1,0 +1,317 @@
+{
+  "type": {
+    "display-lg": {
+      "$type": "typography",
+      "$description": "Marketing hero headline",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.48}",
+        "lineHeight": "{line-height.56}",
+        "fontWeight": "{font.weight.semibold}",
+        "letterSpacing": "{letter-spacing.tight}"
+      }
+    },
+    "display-md": {
+      "$type": "typography",
+      "$description": "Marketing section headline",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.36}",
+        "lineHeight": "{line-height.44}",
+        "fontWeight": "{font.weight.semibold}",
+        "letterSpacing": "{letter-spacing.tight}"
+      }
+    },
+    "title-page": {
+      "$type": "typography",
+      "$description": "App page title, one per page",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.28}",
+        "lineHeight": "{line-height.36}",
+        "fontWeight": "{font.weight.semibold}",
+        "letterSpacing": "{letter-spacing.snug}"
+      }
+    },
+    "title-section": {
+      "$type": "typography",
+      "$description": "Section heading",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.20}",
+        "lineHeight": "{line-height.28}",
+        "fontWeight": "{font.weight.semibold}",
+        "letterSpacing": "{letter-spacing.snug}"
+      }
+    },
+    "title-card": {
+      "$type": "typography",
+      "$description": "Card and dialog title",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.16}",
+        "lineHeight": "{line-height.24}",
+        "fontWeight": "{font.weight.semibold}",
+        "letterSpacing": "{letter-spacing.normal}"
+      }
+    },
+    "body-lg": {
+      "$type": "typography",
+      "$description": "Marketing body copy",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.18}",
+        "lineHeight": "{line-height.28}",
+        "fontWeight": "{font.weight.regular}",
+        "letterSpacing": "{letter-spacing.normal}"
+      }
+    },
+    "body-md": {
+      "$type": "typography",
+      "$description": "Default body, all mobile text",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.16}",
+        "lineHeight": "{line-height.24}",
+        "fontWeight": "{font.weight.regular}",
+        "letterSpacing": "{letter-spacing.normal}"
+      }
+    },
+    "body-sm": {
+      "$type": "typography",
+      "$description": "Dense desktop views, secondary text",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.14}",
+        "lineHeight": "{line-height.20}",
+        "fontWeight": "{font.weight.regular}",
+        "letterSpacing": "{letter-spacing.normal}"
+      }
+    },
+    "label": {
+      "$type": "typography",
+      "$description": "Buttons, nav items, form labels",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.14}",
+        "lineHeight": "{line-height.20}",
+        "fontWeight": "{font.weight.semibold}",
+        "letterSpacing": "{letter-spacing.normal}"
+      }
+    },
+    "caption": {
+      "$type": "typography",
+      "$description": "Captions, badges, helper text",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.12}",
+        "lineHeight": "{line-height.16}",
+        "fontWeight": "{font.weight.regular}",
+        "letterSpacing": "{letter-spacing.wide}"
+      }
+    },
+    "mono": {
+      "$type": "typography",
+      "$description": "IDs, amounts in tables, code",
+      "$value": {
+        "fontFamily": "{font.family.mono}",
+        "fontSize": "{font.size.14}",
+        "lineHeight": "{line-height.20}",
+        "fontWeight": "{font.weight.regular}",
+        "letterSpacing": "{letter-spacing.normal}"
+      }
+    }
+  },
+  "space": {
+    "inline": {
+      "xs": {
+        "$type": "dimension",
+        "$value": "{space.4}",
+        "$description": "Icon to label"
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "{space.8}",
+        "$description": "Between buttons, chips"
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "{space.12}",
+        "$description": "Control padding, horizontal"
+      }
+    },
+    "stack": {
+      "xs": {
+        "$type": "dimension",
+        "$value": "{space.4}",
+        "$description": "Label to input"
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "{space.8}",
+        "$description": "Related lines"
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "{space.16}",
+        "$description": "Form fields, list groups"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "{space.24}",
+        "$description": "Between cards"
+      }
+    },
+    "section": {
+      "$type": "dimension",
+      "$value": "{space.48}",
+      "$description": "Between app page sections"
+    },
+    "section-marketing": {
+      "$type": "dimension",
+      "$value": "{space.96}",
+      "$description": "Between marketing sections (64 on mobile)"
+    },
+    "inset": {
+      "card": {
+        "$type": "dimension",
+        "$value": "{space.16}",
+        "$description": "Card padding on mobile (24 from md up)"
+      },
+      "card-lg": {
+        "$type": "dimension",
+        "$value": "{space.24}",
+        "$description": "Card padding from md up"
+      }
+    },
+    "gutter": {
+      "$type": "dimension",
+      "$value": "{space.16}",
+      "$description": "Page side gutter on mobile (32 from lg up)"
+    },
+    "gutter-lg": {
+      "$type": "dimension",
+      "$value": "{space.32}",
+      "$description": "Page side gutter from lg up"
+    }
+  },
+  "motion": {
+    "feedback": {
+      "$type": "transition",
+      "$description": "Button press, toggle, chip select. Never delayed",
+      "$value": {
+        "duration": "{duration.instant}",
+        "timingFunction": "{easing.move}",
+        "delay": "0ms"
+      }
+    },
+    "hover": {
+      "$type": "transition",
+      "$description": "Hover fills, focus ring appearance. Colour and opacity only",
+      "$value": {
+        "duration": "{duration.fast}",
+        "timingFunction": "{easing.move}",
+        "delay": "0ms"
+      }
+    },
+    "tooltip": {
+      "$type": "transition",
+      "$description": "Tooltip fade in. 300ms hover delay; instant on focus",
+      "$value": {
+        "duration": "{duration.fast}",
+        "timingFunction": "{easing.enter}",
+        "delay": "0ms"
+      }
+    },
+    "popover-enter": {
+      "$type": "transition",
+      "$description": "Dropdowns, popovers, toasts appearing. Max 4px travel",
+      "$value": {
+        "duration": "{duration.base}",
+        "timingFunction": "{easing.enter}",
+        "delay": "0ms"
+      }
+    },
+    "popover-exit": {
+      "$type": "transition",
+      "$description": "Dropdowns and popovers closing",
+      "$value": {
+        "duration": "{duration.fast}",
+        "timingFunction": "{easing.exit}",
+        "delay": "0ms"
+      }
+    },
+    "modal-enter": {
+      "$type": "transition",
+      "$description": "Modal and drawer opening. Scale from 0.96 or slide from edge",
+      "$value": {
+        "duration": "{duration.medium}",
+        "timingFunction": "{easing.enter}",
+        "delay": "0ms"
+      }
+    },
+    "modal-exit": {
+      "$type": "transition",
+      "$description": "Modal and drawer closing",
+      "$value": {
+        "duration": "{duration.base}",
+        "timingFunction": "{easing.exit}",
+        "delay": "0ms"
+      }
+    },
+    "route": {
+      "$type": "transition",
+      "$description": "Page cross-fade with 8px rise. Sidebar and header never animate",
+      "$value": {
+        "duration": "{duration.base}",
+        "timingFunction": "{easing.move}",
+        "delay": "0ms"
+      }
+    },
+    "step": {
+      "$type": "transition",
+      "$description": "Onboarding step slide (24px). Back reverses direction",
+      "$value": {
+        "duration": "{duration.medium}",
+        "timingFunction": "{easing.enter}",
+        "delay": "0ms"
+      }
+    },
+    "emphasis": {
+      "$type": "transition",
+      "$description": "Completion check draw. One per flow",
+      "$value": {
+        "duration": "{duration.slow}",
+        "timingFunction": "{easing.enter}",
+        "delay": "0ms"
+      }
+    },
+    "spotlight": {
+      "$type": "transition",
+      "$description": "Onboarding outline pulse. Runs twice, then stops",
+      "$value": {
+        "duration": "{duration.pulse}",
+        "timingFunction": "{easing.move}",
+        "delay": "0ms"
+      }
+    },
+    "skeleton": {
+      "$type": "transition",
+      "$description": "Skeleton shimmer loop. Only if load exceeds 300ms; static under reduced motion",
+      "$value": {
+        "duration": "{duration.shimmer}",
+        "timingFunction": "{easing.linear}",
+        "delay": "0ms"
+      }
+    },
+    "progress": {
+      "$type": "transition",
+      "$description": "Progress bar width updates",
+      "$value": {
+        "duration": "{duration.base}",
+        "timingFunction": "{easing.linear}",
+        "delay": "0ms"
+      }
+    }
+  }
+}

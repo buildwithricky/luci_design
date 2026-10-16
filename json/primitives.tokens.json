@@ -1,0 +1,717 @@
+{
+  "green": {
+    "50": {
+      "$type": "color",
+      "$value": "#e9ece7",
+      "$description": "10% Sage over neutral.50",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": "#dfe4db",
+      "$description": "20% Sage over neutral.50",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#9eb192",
+      "$description": "Sage, 15% toward neutral.50",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#8fa581",
+      "$description": "Sage",
+      "$extensions": {
+        "luci.status": "approved"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": "#849977",
+      "$description": "Sage, 10% toward Forest",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": "#5a6850",
+      "$description": "50/50 Forest and Sage",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": "#31392c",
+      "$description": "Forest, 12% toward Sage",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": "#2d312a",
+      "$description": "15% Sage over neutral.900",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": "#242a20",
+      "$description": "Forest",
+      "$extensions": {
+        "luci.status": "approved"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": "#1c1f1a",
+      "$description": "Forest, 50% toward neutral.950",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    }
+  },
+  "neutral": {
+    "0": {
+      "$type": "color",
+      "$value": "#fbfbfa",
+      "$description": "neutral.50 lifted, tint kept",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "50": {
+      "$type": "color",
+      "$value": "#f3f4f2",
+      "$description": "Light canvas",
+      "$extensions": {
+        "luci.status": "approved"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": "#e7e8e5",
+      "$description": "neutral.50, 5% darker",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#bbbcbb",
+      "$description": "Light grey",
+      "$extensions": {
+        "luci.status": "approved"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": "#9a9a98",
+      "$description": "Between neutral.300 and neutral.500",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": "#848483",
+      "$description": "Mid grey",
+      "$extensions": {
+        "luci.status": "approved"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": "#656565",
+      "$description": "neutral.500, 55% toward neutral.700",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": "#4c4c4c",
+      "$description": "Dark grey",
+      "$extensions": {
+        "luci.status": "approved"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": "#3a3b39",
+      "$description": "Dark-mode border step",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": "#2e2f2d",
+      "$description": "Dark overlay surface",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": "#242523",
+      "$description": "Dark raised surface",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": "#1c1d1b",
+      "$description": "Dark standard surface",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": "#141414",
+      "$description": "Near-black",
+      "$extensions": {
+        "luci.status": "approved"
+      }
+    }
+  },
+  "success": {
+    "light": {
+      "$type": "color",
+      "$value": "#2f6b3a",
+      "$description": "Success text/icon, light",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "tint-light": {
+      "$type": "color",
+      "$value": "#e7ede7",
+      "$description": "Success tint, light",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "dark": {
+      "$type": "color",
+      "$value": "#8cc98a",
+      "$description": "Success text/icon, dark",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "tint-dark": {
+      "$type": "color",
+      "$value": "#2c352b",
+      "$description": "Success tint, dark",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    }
+  },
+  "warning": {
+    "light": {
+      "$type": "color",
+      "$value": "#8a5a00",
+      "$description": "Warning text/icon, light",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "tint-light": {
+      "$type": "color",
+      "$value": "#f0ebe1",
+      "$description": "Warning tint, light",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "dark": {
+      "$type": "color",
+      "$value": "#e0b45a",
+      "$description": "Warning text/icon, dark",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "tint-dark": {
+      "$type": "color",
+      "$value": "#373224",
+      "$description": "Warning tint, dark",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    }
+  },
+  "danger": {
+    "light": {
+      "$type": "color",
+      "$value": "#b3261e",
+      "$description": "Danger text/icon, light",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "light-hover": {
+      "$type": "color",
+      "$value": "#951f19",
+      "$description": "Danger button hover, light",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "tint-light": {
+      "$type": "color",
+      "$value": "#f4e6e4",
+      "$description": "Danger tint, light",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "dark": {
+      "$type": "color",
+      "$value": "#f2a39b",
+      "$description": "Danger text/icon, dark",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "dark-hover": {
+      "$type": "color",
+      "$value": "#f6bcb6",
+      "$description": "Danger button hover, dark",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "tint-dark": {
+      "$type": "color",
+      "$value": "#3a302d",
+      "$description": "Danger tint, dark",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    }
+  },
+  "info": {
+    "light": {
+      "$type": "color",
+      "$value": "#2f5f8a",
+      "$description": "Info text/icon, light",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "tint-light": {
+      "$type": "color",
+      "$value": "#e7ebef",
+      "$description": "Info tint, light",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "dark": {
+      "$type": "color",
+      "$value": "#9cc3e6",
+      "$description": "Info text/icon, dark",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "tint-dark": {
+      "$type": "color",
+      "$value": "#2e3437",
+      "$description": "Info tint, dark",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    }
+  },
+  "scrim": {
+    "light": {
+      "$type": "color",
+      "$value": "rgb(20 20 20 / 0.48)",
+      "$description": "neutral.950 at 48%",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    },
+    "dark": {
+      "$type": "color",
+      "$value": "rgb(10 11 10 / 0.64)",
+      "$description": "neutral.950 darkened, at 64%",
+      "$extensions": {
+        "luci.status": "proposed"
+      }
+    }
+  },
+  "font": {
+    "family": {
+      "sans": {
+        "$type": "fontFamily",
+        "$value": "'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+      },
+      "mono": {
+        "$type": "fontFamily",
+        "$value": "ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace"
+      }
+    },
+    "weight": {
+      "regular": {
+        "$type": "fontWeight",
+        "$value": "400"
+      },
+      "semibold": {
+        "$type": "fontWeight",
+        "$value": "600"
+      }
+    },
+    "size": {
+      "12": {
+        "$type": "dimension",
+        "$value": "0.75rem"
+      },
+      "14": {
+        "$type": "dimension",
+        "$value": "0.875rem"
+      },
+      "16": {
+        "$type": "dimension",
+        "$value": "1rem"
+      },
+      "18": {
+        "$type": "dimension",
+        "$value": "1.125rem"
+      },
+      "20": {
+        "$type": "dimension",
+        "$value": "1.25rem"
+      },
+      "28": {
+        "$type": "dimension",
+        "$value": "1.75rem"
+      },
+      "36": {
+        "$type": "dimension",
+        "$value": "2.25rem"
+      },
+      "48": {
+        "$type": "dimension",
+        "$value": "3rem"
+      }
+    }
+  },
+  "line-height": {
+    "16": {
+      "$type": "dimension",
+      "$value": "1rem"
+    },
+    "20": {
+      "$type": "dimension",
+      "$value": "1.25rem"
+    },
+    "24": {
+      "$type": "dimension",
+      "$value": "1.5rem"
+    },
+    "28": {
+      "$type": "dimension",
+      "$value": "1.75rem"
+    },
+    "36": {
+      "$type": "dimension",
+      "$value": "2.25rem"
+    },
+    "44": {
+      "$type": "dimension",
+      "$value": "2.75rem"
+    },
+    "56": {
+      "$type": "dimension",
+      "$value": "3.5rem"
+    }
+  },
+  "letter-spacing": {
+    "tight": {
+      "$type": "dimension",
+      "$value": "-0.02em"
+    },
+    "snug": {
+      "$type": "dimension",
+      "$value": "-0.01em"
+    },
+    "normal": {
+      "$type": "dimension",
+      "$value": "0"
+    },
+    "wide": {
+      "$type": "dimension",
+      "$value": "0.01em"
+    }
+  },
+  "space": {
+    "0": {
+      "$type": "dimension",
+      "$value": "0"
+    },
+    "2": {
+      "$type": "dimension",
+      "$value": "0.125rem"
+    },
+    "4": {
+      "$type": "dimension",
+      "$value": "0.25rem"
+    },
+    "8": {
+      "$type": "dimension",
+      "$value": "0.5rem"
+    },
+    "12": {
+      "$type": "dimension",
+      "$value": "0.75rem"
+    },
+    "16": {
+      "$type": "dimension",
+      "$value": "1rem"
+    },
+    "20": {
+      "$type": "dimension",
+      "$value": "1.25rem"
+    },
+    "24": {
+      "$type": "dimension",
+      "$value": "1.5rem"
+    },
+    "32": {
+      "$type": "dimension",
+      "$value": "2rem"
+    },
+    "40": {
+      "$type": "dimension",
+      "$value": "2.5rem"
+    },
+    "48": {
+      "$type": "dimension",
+      "$value": "3rem"
+    },
+    "64": {
+      "$type": "dimension",
+      "$value": "4rem"
+    },
+    "80": {
+      "$type": "dimension",
+      "$value": "5rem"
+    },
+    "96": {
+      "$type": "dimension",
+      "$value": "6rem"
+    }
+  },
+  "radius": {
+    "none": {
+      "$type": "dimension",
+      "$value": "0"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "full": {
+      "$type": "dimension",
+      "$value": "9999px"
+    }
+  },
+  "border-width": {
+    "1": {
+      "$type": "dimension",
+      "$value": "1px"
+    },
+    "2": {
+      "$type": "dimension",
+      "$value": "2px"
+    }
+  },
+  "opacity": {
+    "0": {
+      "$type": "number",
+      "$value": "0"
+    },
+    "48": {
+      "$type": "number",
+      "$value": "0.48"
+    },
+    "64": {
+      "$type": "number",
+      "$value": "0.64"
+    },
+    "100": {
+      "$type": "number",
+      "$value": "1"
+    }
+  },
+  "duration": {
+    "instant": {
+      "$type": "duration",
+      "$value": "100ms"
+    },
+    "fast": {
+      "$type": "duration",
+      "$value": "150ms"
+    },
+    "base": {
+      "$type": "duration",
+      "$value": "200ms"
+    },
+    "medium": {
+      "$type": "duration",
+      "$value": "300ms"
+    },
+    "slow": {
+      "$type": "duration",
+      "$value": "400ms"
+    },
+    "pulse": {
+      "$type": "duration",
+      "$value": "600ms"
+    },
+    "shimmer": {
+      "$type": "duration",
+      "$value": "1500ms"
+    }
+  },
+  "easing": {
+    "enter": {
+      "$type": "cubicBezier",
+      "$value": [
+        0.05,
+        0.7,
+        0.1,
+        1.0
+      ]
+    },
+    "exit": {
+      "$type": "cubicBezier",
+      "$value": [
+        0.3,
+        0.0,
+        0.8,
+        0.15
+      ]
+    },
+    "move": {
+      "$type": "cubicBezier",
+      "$value": [
+        0.2,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "linear": {
+      "$type": "cubicBezier",
+      "$value": "linear"
+    }
+  },
+  "breakpoint": {
+    "sm": {
+      "$type": "dimension",
+      "$value": "640px"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "768px"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "1024px"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "1280px"
+    }
+  },
+  "size": {
+    "sidebar": {
+      "$type": "dimension",
+      "$value": "240px"
+    },
+    "content-max": {
+      "$type": "dimension",
+      "$value": "1120px"
+    },
+    "header": {
+      "$type": "dimension",
+      "$value": "56px"
+    },
+    "control-sm": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "control-md": {
+      "$type": "dimension",
+      "$value": "40px"
+    },
+    "control-lg": {
+      "$type": "dimension",
+      "$value": "48px"
+    }
+  },
+  "z": {
+    "base": {
+      "$type": "number",
+      "$value": "0"
+    },
+    "sticky": {
+      "$type": "number",
+      "$value": "100"
+    },
+    "dropdown": {
+      "$type": "number",
+      "$value": "200"
+    },
+    "overlay": {
+      "$type": "number",
+      "$value": "300"
+    },
+    "modal": {
+      "$type": "number",
+      "$value": "400"
+    },
+    "spotlight": {
+      "$type": "number",
+      "$value": "450"
+    },
+    "toast": {
+      "$type": "number",
+      "$value": "500"
+    },
+    "tooltip": {
+      "$type": "number",
+      "$value": "600"
+    }
+  }
+}

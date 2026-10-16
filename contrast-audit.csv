@@ -1,0 +1,123 @@
+theme,pair,foreground_token,background_token,fg,bg,ratio,required,result
+light,primary text on canvas,color.text.primary,color.background.canvas,#141414,#f3f4f2,16.70,4.5,pass
+dark,primary text on canvas,color.text.primary,color.background.canvas,#f3f4f2,#141414,16.70,4.5,pass
+light,primary text on surface,color.text.primary,color.background.surface,#141414,#fbfbfa,17.79,4.5,pass
+dark,primary text on surface,color.text.primary,color.background.surface,#f3f4f2,#1c1d1b,15.34,4.5,pass
+light,primary text on surface-raised,color.text.primary,color.background.surface-raised,#141414,#fbfbfa,17.79,4.5,pass
+dark,primary text on surface-raised,color.text.primary,color.background.surface-raised,#f3f4f2,#242523,13.95,4.5,pass
+light,primary text on surface-overlay,color.text.primary,color.background.surface-overlay,#141414,#fbfbfa,17.79,4.5,pass
+dark,primary text on surface-overlay,color.text.primary,color.background.surface-overlay,#f3f4f2,#2e2f2d,12.20,4.5,pass
+light,primary text on surface-sunken,color.text.primary,color.background.surface-sunken,#141414,#e7e8e5,14.98,4.5,pass
+dark,primary text on surface-sunken,color.text.primary,color.background.surface-sunken,#f3f4f2,#141414,16.70,4.5,pass
+light,primary text on hover,color.text.primary,color.background.hover,#141414,#e7e8e5,14.98,4.5,pass
+dark,primary text on hover,color.text.primary,color.background.hover,#f3f4f2,#2e2f2d,12.20,4.5,pass
+light,secondary text on canvas,color.text.secondary,color.background.canvas,#4c4c4c,#f3f4f2,7.78,4.5,pass
+dark,secondary text on canvas,color.text.secondary,color.background.canvas,#bbbcbb,#141414,9.67,4.5,pass
+light,secondary text on surface,color.text.secondary,color.background.surface,#4c4c4c,#fbfbfa,8.29,4.5,pass
+dark,secondary text on surface,color.text.secondary,color.background.surface,#bbbcbb,#1c1d1b,8.88,4.5,pass
+light,secondary text on surface-raised,color.text.secondary,color.background.surface-raised,#4c4c4c,#fbfbfa,8.29,4.5,pass
+dark,secondary text on surface-raised,color.text.secondary,color.background.surface-raised,#bbbcbb,#242523,8.08,4.5,pass
+light,secondary text on surface-overlay,color.text.secondary,color.background.surface-overlay,#4c4c4c,#fbfbfa,8.29,4.5,pass
+dark,secondary text on surface-overlay,color.text.secondary,color.background.surface-overlay,#bbbcbb,#2e2f2d,7.06,4.5,pass
+light,secondary text on surface-sunken,color.text.secondary,color.background.surface-sunken,#4c4c4c,#e7e8e5,6.98,4.5,pass
+dark,secondary text on surface-sunken,color.text.secondary,color.background.surface-sunken,#bbbcbb,#141414,9.67,4.5,pass
+light,secondary text on hover,color.text.secondary,color.background.hover,#4c4c4c,#e7e8e5,6.98,4.5,pass
+dark,secondary text on hover,color.text.secondary,color.background.hover,#bbbcbb,#2e2f2d,7.06,4.5,pass
+light,muted text on canvas,color.text.muted,color.background.canvas,#656565,#f3f4f2,5.28,4.5,pass
+dark,muted text on canvas,color.text.muted,color.background.canvas,#9a9a98,#141414,6.54,4.5,pass
+light,muted text on surface,color.text.muted,color.background.surface,#656565,#fbfbfa,5.63,4.5,pass
+dark,muted text on surface,color.text.muted,color.background.surface,#9a9a98,#1c1d1b,6.00,4.5,pass
+light,muted text on surface-raised,color.text.muted,color.background.surface-raised,#656565,#fbfbfa,5.63,4.5,pass
+dark,muted text on surface-raised,color.text.muted,color.background.surface-raised,#9a9a98,#242523,5.46,4.5,pass
+light,muted text on surface-overlay,color.text.muted,color.background.surface-overlay,#656565,#fbfbfa,5.63,4.5,pass
+dark,muted text on surface-overlay,color.text.muted,color.background.surface-overlay,#9a9a98,#2e2f2d,4.77,4.5,pass
+light,muted text on surface-sunken,color.text.muted,color.background.surface-sunken,#656565,#e7e8e5,4.74,4.5,pass
+dark,muted text on surface-sunken,color.text.muted,color.background.surface-sunken,#9a9a98,#141414,6.54,4.5,pass
+light,muted text on hover,color.text.muted,color.background.hover,#656565,#e7e8e5,4.74,4.5,pass
+dark,muted text on hover,color.text.muted,color.background.hover,#9a9a98,#2e2f2d,4.77,4.5,pass
+light,link on canvas,color.text.link,color.background.canvas,#5a6850,#f3f4f2,5.39,4.5,pass
+dark,link on canvas,color.text.link,color.background.canvas,#8fa581,#141414,6.90,4.5,pass
+light,link on surface,color.text.link,color.background.surface,#5a6850,#fbfbfa,5.74,4.5,pass
+dark,link on surface,color.text.link,color.background.surface,#8fa581,#1c1d1b,6.34,4.5,pass
+light,selected text on selected,color.text.selected,color.background.selected,#242a20,#e9ece7,12.34,4.5,pass
+dark,selected text on selected,color.text.selected,color.background.selected,#f3f4f2,#2d312a,12.01,4.5,pass
+light,tooltip / toast text,color.text.inverse,color.background.surface-inverse,#f3f4f2,#242a20,13.34,4.5,pass
+dark,tooltip / toast text,color.text.inverse,color.background.surface-inverse,#141414,#f3f4f2,16.70,4.5,pass
+light,primary button label,color.action.primary.foreground,color.action.primary.background,#f3f4f2,#242a20,13.34,4.5,pass
+dark,primary button label,color.action.primary.foreground,color.action.primary.background,#242a20,#8fa581,5.51,4.5,pass
+light,"primary button label, hover",color.action.primary.foreground,color.action.primary.hover,#f3f4f2,#31392c,10.86,4.5,pass
+dark,"primary button label, hover",color.action.primary.foreground,color.action.primary.hover,#242a20,#9eb192,6.42,4.5,pass
+light,"primary button label, pressed",color.action.primary.foreground,color.action.primary.pressed,#f3f4f2,#1c1f1a,15.10,4.5,pass
+dark,"primary button label, pressed",color.action.primary.foreground,color.action.primary.pressed,#242a20,#849977,4.77,4.5,pass
+light,tonal button label,color.action.tonal.foreground,color.action.tonal.background,#242a20,#e9ece7,12.34,4.5,pass
+dark,tonal button label,color.action.tonal.foreground,color.action.tonal.background,#9eb192,#2d312a,5.78,4.5,pass
+light,"tonal button label, hover",color.action.tonal.foreground,color.action.tonal.hover,#242a20,#dfe4db,11.39,4.5,pass
+dark,"tonal button label, hover",color.action.tonal.foreground,color.action.tonal.hover,#9eb192,#31392c,5.23,4.5,pass
+light,danger button label,color.action.danger.foreground,color.action.danger.background,#fbfbfa,#b3261e,6.31,4.5,pass
+dark,danger button label,color.action.danger.foreground,color.action.danger.background,#141414,#f2a39b,9.20,4.5,pass
+light,"danger button label, hover",color.action.danger.foreground,color.action.danger.hover,#fbfbfa,#951f19,8.15,4.5,pass
+dark,"danger button label, hover",color.action.danger.foreground,color.action.danger.hover,#141414,#f6bcb6,11.22,4.5,pass
+light,success text on its tint,color.status.success.foreground,color.status.success.background,#2f6b3a,#e7ede7,5.38,4.5,pass
+dark,success text on its tint,color.status.success.foreground,color.status.success.background,#8cc98a,#2c352b,6.56,4.5,pass
+light,success text on surface,color.status.success.foreground,color.background.surface,#2f6b3a,#fbfbfa,6.17,4.5,pass
+dark,success text on surface,color.status.success.foreground,color.background.surface,#8cc98a,#1c1d1b,8.73,4.5,pass
+light,success text on canvas,color.status.success.foreground,color.background.canvas,#2f6b3a,#f3f4f2,5.79,4.5,pass
+dark,success text on canvas,color.status.success.foreground,color.background.canvas,#8cc98a,#141414,9.51,4.5,pass
+light,warning text on its tint,color.status.warning.foreground,color.status.warning.background,#8a5a00,#f0ebe1,4.99,4.5,pass
+dark,warning text on its tint,color.status.warning.foreground,color.status.warning.background,#e0b45a,#373224,6.60,4.5,pass
+light,warning text on surface,color.status.warning.foreground,color.background.surface,#8a5a00,#fbfbfa,5.72,4.5,pass
+dark,warning text on surface,color.status.warning.foreground,color.background.surface,#e0b45a,#1c1d1b,8.74,4.5,pass
+light,warning text on canvas,color.status.warning.foreground,color.background.canvas,#8a5a00,#f3f4f2,5.37,4.5,pass
+dark,warning text on canvas,color.status.warning.foreground,color.background.canvas,#e0b45a,#141414,9.51,4.5,pass
+light,danger text on its tint,color.status.danger.foreground,color.status.danger.background,#b3261e,#f4e6e4,5.38,4.5,pass
+dark,danger text on its tint,color.status.danger.foreground,color.status.danger.background,#f2a39b,#3a302d,6.39,4.5,pass
+light,danger text on surface,color.status.danger.foreground,color.background.surface,#b3261e,#fbfbfa,6.31,4.5,pass
+dark,danger text on surface,color.status.danger.foreground,color.background.surface,#f2a39b,#1c1d1b,8.45,4.5,pass
+light,danger text on canvas,color.status.danger.foreground,color.background.canvas,#b3261e,#f3f4f2,5.92,4.5,pass
+dark,danger text on canvas,color.status.danger.foreground,color.background.canvas,#f2a39b,#141414,9.20,4.5,pass
+light,info text on its tint,color.status.info.foreground,color.status.info.background,#2f5f8a,#e7ebef,5.61,4.5,pass
+dark,info text on its tint,color.status.info.foreground,color.status.info.background,#9cc3e6,#2e3437,6.83,4.5,pass
+light,info text on surface,color.status.info.foreground,color.background.surface,#2f5f8a,#fbfbfa,6.49,4.5,pass
+dark,info text on surface,color.status.info.foreground,color.background.surface,#9cc3e6,#1c1d1b,9.16,4.5,pass
+light,info text on canvas,color.status.info.foreground,color.background.canvas,#2f5f8a,#f3f4f2,6.09,4.5,pass
+dark,info text on canvas,color.status.info.foreground,color.background.canvas,#9cc3e6,#141414,9.97,4.5,pass
+light,input border vs surface,color.border.strong,color.background.surface,#848483,#fbfbfa,3.62,3.0,pass
+dark,input border vs surface,color.border.strong,color.background.surface,#848483,#1c1d1b,4.52,3.0,pass
+light,input border vs canvas,color.border.strong,color.background.canvas,#848483,#f3f4f2,3.39,3.0,pass
+dark,input border vs canvas,color.border.strong,color.background.canvas,#848483,#141414,4.92,3.0,pass
+light,input border hover vs surface,color.border.hover,color.background.surface,#4c4c4c,#fbfbfa,8.29,3.0,pass
+dark,input border hover vs surface,color.border.hover,color.background.surface,#9a9a98,#1c1d1b,6.00,3.0,pass
+light,selected outline vs surface,color.border.selected,color.background.surface,#5a6850,#fbfbfa,5.74,3.0,pass
+dark,selected outline vs surface,color.border.selected,color.background.surface,#8fa581,#1c1d1b,6.34,3.0,pass
+light,focus ring vs canvas,color.focus.ring,color.background.canvas,#5a6850,#f3f4f2,5.39,3.0,pass
+dark,focus ring vs canvas,color.focus.ring,color.background.canvas,#8fa581,#141414,6.90,3.0,pass
+light,focus ring vs surface,color.focus.ring,color.background.surface,#5a6850,#fbfbfa,5.74,3.0,pass
+dark,focus ring vs surface,color.focus.ring,color.background.surface,#8fa581,#1c1d1b,6.34,3.0,pass
+light,focus ring vs overlay,color.focus.ring,color.background.surface-overlay,#5a6850,#fbfbfa,5.74,3.0,pass
+dark,focus ring vs overlay,color.focus.ring,color.background.surface-overlay,#8fa581,#2e2f2d,5.04,3.0,pass
+light,icon vs surface,color.icon.default,color.background.surface,#4c4c4c,#fbfbfa,8.29,3.0,pass
+dark,icon vs surface,color.icon.default,color.background.surface,#bbbcbb,#1c1d1b,8.88,3.0,pass
+light,icon vs hover fill,color.icon.default,color.background.hover,#4c4c4c,#e7e8e5,6.98,3.0,pass
+dark,icon vs hover fill,color.icon.default,color.background.hover,#bbbcbb,#2e2f2d,7.06,3.0,pass
+light,primary button shape vs surface,color.action.primary.background,color.background.surface,#242a20,#fbfbfa,14.21,3.0,pass
+dark,primary button shape vs surface,color.action.primary.background,color.background.surface,#8fa581,#1c1d1b,6.34,3.0,pass
+light,accent indicator vs surface,color.accent.indicator,color.background.surface,#5a6850,#fbfbfa,5.74,3.0,pass
+dark,accent indicator vs surface,color.accent.indicator,color.background.surface,#8fa581,#1c1d1b,6.34,3.0,pass
+light,text on Sage accent fill,color.accent.foreground,color.accent.background,#242a20,#8fa581,5.51,4.5,pass
+dark,text on Sage accent fill,color.accent.foreground,color.accent.background,#242a20,#8fa581,5.51,4.5,pass
+light,accent indicator vs canvas,color.accent.indicator,color.background.canvas,#5a6850,#f3f4f2,5.39,3.0,pass
+dark,accent indicator vs canvas,color.accent.indicator,color.background.canvas,#8fa581,#141414,6.90,3.0,pass
+light,error field border vs surface,color.status.danger.foreground,color.background.surface,#b3261e,#fbfbfa,6.31,3.0,pass
+dark,error field border vs surface,color.status.danger.foreground,color.background.surface,#f2a39b,#1c1d1b,8.45,3.0,pass
+light,chart series 1 vs surface,color.chart.series-1,color.background.surface,#5a6850,#fbfbfa,5.74,3.0,pass
+dark,chart series 1 vs surface,color.chart.series-1,color.background.surface,#8fa581,#1c1d1b,6.34,3.0,pass
+light,chart series 2 vs surface,color.chart.series-2,color.background.surface,#2f5f8a,#fbfbfa,6.49,3.0,pass
+dark,chart series 2 vs surface,color.chart.series-2,color.background.surface,#9cc3e6,#1c1d1b,9.16,3.0,pass
+light,chart series 3 vs surface,color.chart.series-3,color.background.surface,#8a5a00,#fbfbfa,5.72,3.0,pass
+dark,chart series 3 vs surface,color.chart.series-3,color.background.surface,#e0b45a,#1c1d1b,8.74,3.0,pass
+light,chart series 4 vs surface,color.chart.series-4,color.background.surface,#848483,#fbfbfa,3.62,3.0,pass
+dark,chart series 4 vs surface,color.chart.series-4,color.background.surface,#bbbcbb,#1c1d1b,8.88,3.0,pass
+light,chart axis vs surface,color.chart.axis,color.background.surface,#848483,#fbfbfa,3.62,3.0,pass
+dark,chart axis vs surface,color.chart.axis,color.background.surface,#848483,#1c1d1b,4.52,3.0,pass
+light,disabled text (exempt),color.text.disabled,color.background.surface,#848483,#fbfbfa,3.62,0,exempt
+dark,disabled text (exempt),color.text.disabled,color.background.surface,#656565,#1c1d1b,2.90,0,exempt
